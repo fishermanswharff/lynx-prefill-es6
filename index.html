@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <a href="javascript:
+    (function(d){
+      var body = d.body,
+      script = d.createElement('script'),
+      filler = d.getElementById('faker-filler');
+      if(filler != undefined) filler.remove();
+      script.setAttribute('id', 'faker-filler');
+      script.src = 'http://localhost:8089/dist/bundle.js';
+      body.appendChild(script);
+    }(window.document));
+  ">ES6 Form Prefill</a>
+</body>
+</html>
