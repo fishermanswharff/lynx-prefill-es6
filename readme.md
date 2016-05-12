@@ -1,7 +1,7 @@
-# ES6 Module Boilerplate
+# LYNX Prefill
 
 * `git clone …`
 * `npm install`
-* `npm run watch` (to watch changed files) OR `npm run test` (to run the test suite once)
-
-Gulp will watch and build es6 with webpack, and run any specs.
+* `npm install -g http-server`
+* `gulp scripts` (to watch changed files) OR `npm run test` (to run the test suite once)
+* `http-server -p 8089`
